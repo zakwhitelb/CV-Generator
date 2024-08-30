@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <meta name="keyword" content="red, color, colors">
+    <meta name="description" content="the beast color in the word">
+    <script defer src="../JavaScript/Logic.js"></script>
+    <link rel="stylesheet" href="../Style/style.css">
+    <link rel="icon"href="../Icon/Logo.ico">
+    <title>W-CV</title>
+</head>
+    <body>
+        <header id="header-cv-creat">
+            <a href="../index.html" id="logo">
+                <img src="../Photo/Logo.png" alt="logo" id="logo-icon">
+                <span class="logo-wriht">W-CV</span> 
+            </a>
+        </header>
+
+        <main>
+
+            <section id="home-cv-creat">
+                
+                <div id="stars"></div>
+                <div id="stars2"></div>
+                <div id="stars3"></div>
+                
+                <div id="stars-prim"></div>
+                <div id="stars2-prim"></div>
+                <div id="stars3-prim"></div>
+
+                <div id="text-cv-creat">Entrée vos donner</div>
+
+            </section>
+
+            <section id="Informations-cv-creat">
+
+                <form action="http://localhost/CV-Generator/PHP/CreateCV.php" method="POST" id="form-cv-creat">
+                    <nav id="nav">
+                        
+                        <!-- informations-personnelles -->
+                        <div class="parent-of-links-cv-creat" id="Informations-Personnelles">
+
+                            <div class="accordion-item-header">
+                    
+                                <h2>Informations personnelles</h2>
+                                
+                                <div class="nav-toggle">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                        
+                            </div>
+
+                            <ul class="links">
+
+                                <li class="box-flex-dispaly-thinks-cv-creat">
+
+                                    <div id="box-of-box-pic-cv-creat">
+                                        <div id="box-pic-cv-creat">
+
+                                            <div class="drag-area">
+
+                                                <div class="icon">
+                                                    <i class="fa-sharp fa-solid fa-image"></i>
+                                                </div>
+
+                                                <div id="box-support-cv-creat">
+                                                    <span class="support">JPEG, JPG, PNG</span>
+                                                </div>
+                                                
+                                                <span class="button"><input type="file" hidden /></span>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div id="box-N-P-E-cv-creat">
+
+                                        <div class="box-flex-dispaly-thinks-cv-creat">
+
+                                            <div class="box-of-input-cv-creat" id="nom">
+                                                <label for="nom" class="text-input-cv-creat">Nom:</label>
+                                                <input type="text" class="input-cv-creat" name="nom" id="nom"required>
+                                            </div>
+
+                                            <div class="box-of-input-cv-creat" id="prenom">
+                                                <label for="prenom" class="text-input-cv-creat">Prenom:</label>
+                                                <input type="text" class="input-cv-creat" name="prenom" required>
+                                            </div> 
+
+                                        </div>
+
+                                        <div class="box-grid-dispaly-thinks-cv-creat" id="box-E-cv-creat">
+                                            <div class="box-of-input-grid-dispaly-cv-creat">
+                                                <label for="email" class="text-input-cv-creat">Email:</label>
+                                                <input type="email" class="input-cv-creat" name="email" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </li>
+
+
+
+
+                                <li class="box-grid-dispaly-thinks-cv-creat" id="box-T-N-A-cv-creat">
+
+                                    <div class="box-of-input-grid-dispaly-cv-creat">
+                                        <label for="age" class="text-input-cv-creat">Titre du profil:</label>
+                                        <input type="text" class="input-cv-creat" name="age" required>
+                                    </div>
+
+                                    <div class="box-of-input-grid-dispaly-cv-creat">
+                                        <label for="phone" class="text-input-cv-creat">Numéro de téléphone:</label>
+                                        <input type="text" class="input-cv-creat" name="phone" required>
+                                    </div>
+
+                                    <div class="box-of-input-grid-dispaly-cv-creat">
+                                        <label for="adresse" class="text-input-cv-creat">Adresse:</label>
+                                        <input type="text" class="input-cv-creat" name="adresse" required>
+                                    </div>
+
+                                </li>
+
+                                <li class="box-flex-dispaly-thinks-cv-creat" id="box-V-C-cv-creat">
+
+                                    <div class="box-of-input-cv-creat" id="ville">
+                                        <label for="ville" class="text-input-cv-creat">Ville:</label>
+                                        <input type="text" class="input-cv-creat" name="ville" id="ville" required>
+                                    </div>
+                                    
+                                    <div class="box-of-input-cv-creat" id="code-Postale">
+                                        <label for="Code Postale" class="text-input-cv-creat">Code Postale:</label>
+                                        <input type="text" class="input-cv-creat" name="code-postale" required>
+                                    </div>
+                                </li>
+
+                            </ul>
+
+                        </div>
+
+                        <!-- Profil -->
+                        <div class="parent-of-links-cv-creat" id="Profil">
+
+                            <div class="accordion-item-header">
+                    
+                                <h2>Profile</h2>
+                                
+                                <div class="nav-toggle">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                        
+                            </div>
+                
+                            <ul class="links">
+
+                                <label for="profile" class="text-input-cv-creat">Profile:</label>
+                                <textarea name="profil" class="input-cv-creat" id="profil-cv-creat" cols="30" rows="10" placeholder="Ecrire...." maxlength="600" required></textarea>
+
+                            </ul>
+
+                        </div>
+
+                        <!-- Formation -->
+                        <div class="parent-of-links-cv-creat" id="Formation">
+
+                            <div class="accordion-item-header">
+                    
+                                <h2>Formation</h2>
+                                
+                                <div class="nav-toggle">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                        
+                            </div>
+                
+                            <ul class="links">
+                                <label for="formation" class="text-input-cv-creat">Formation:</label>
+                                <textarea name="formation" class="input-cv-creat" id="profil-cv-creat" cols="30" rows="10" placeholder="Ecrire...." maxlength="600" required></textarea>
+                            </ul>
+
+                        </div>
+
+                        <!-- Centres d'intérêt -->
+                        <div class="parent-of-links-cv-creat" id="Centres-Intérêt">
+
+                            <div class="accordion-item-header">
+                    
+                                <h2>Centres d'intérêt</h2>
+                                
+                                <div class="nav-toggle">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                        
+                            </div>
+                
+                            <ul class="links">
+                                <label for="centres-intérêt" class="text-input-cv-creat">Centres d'intérêt:</label>
+                                <textarea name="centres-intérêt" class="input-cv-creat" id="profil-cv-creat" cols="30" rows="10" placeholder="Ecrire...." maxlength="600" required></textarea>
+                            </ul>
+
+                        </div>
+                    </nav>
+
+                    <div id="box-button-cv-creat">
+                    <button type="submit" class="button-cv-creat" >Next</button>
+                    </div>
+
+                </form>
+            </section>
+        </main>
+    </body>
+</html>
