@@ -16,9 +16,9 @@ if (!$file || !file_exists("../CVs/$file")) {
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <meta name="keyword" content="red, color, colors">
     <meta name="description" content="the beast color in the word">
-    <script defer src="../JavaScript/Logic.js"></script>
-    <link rel="stylesheet" href="../Style/style.css">
-    <link rel="icon"href="../Icon/Logo.ico">
+    <script defer src="../component/JavaScript/Logic.js"></script>
+    <link rel="stylesheet" href="../component/style/Style.css">
+    <link rel="icon"href="../asset/icon/logoBlack.svg">
     <title>W-CV</title>
 </head>
 </head>
